@@ -1,0 +1,153 @@
+.bg-pal1 {
+  background-color: #f3ca77;
+}
+
+.bg-pal2 {
+  background-color: #d6b779;
+}
+
+.bg-pal3 {
+  background-color: #ab9b7c;
+}
+
+.bg-pal4 {
+  background-color: #8e897e;
+}
+
+.h1 {
+  font-size: 32px;
+}
+
+.h2 {
+  font-size: 20px;
+}
+
+.h3 {
+  font-size: 18px;
+}
+
+.h4 {
+  font-size: 16px;
+}
+
+.h5 {
+  font-size: 12px;
+}
+
+.menu {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.paragr-introduction {
+  font-size: 24px;
+}
+
+.desc-hiper-li {
+  font-size: 16px;
+}
+
+.cont-aux {
+  font-size: 14px;
+}
+
+.subtittle {
+  font-size: 13px;
+}
+
+.legal-text {
+  font-size: 12px;
+}
+
+.h-footer {
+  height: 75px;
+}
+
+.img-logo {
+  width: 60px;
+  height: 52px;
+}
+
+.img-logo-mvl {
+  width: 35px;
+  height: 35px;
+}
+
+.img-product {
+  width: 225px;
+  height: 135px;
+}
+
+.img-patro {
+  width: 100px;
+  height: 100px;
+}
+
+.img-map {
+  width: 240px;
+  height: 140px;
+}
+
+.img-list {
+  width: 50px;
+  height: 50px;
+}
+
+.img-us {
+  width: 100px;
+  height: 100px;
+}
+
+.img-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.img-random {
+  background-image: url("https://source.unsplash.com/collections/879042");
+  background-size: cover;
+}
+
+html {
+  padding: 0px;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.bar {
+  height: 90px;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+}
+
+/** IPAD */
+@media (max-width: 993.98px) {
+  .nav-mvl .btn-nav {
+    display: block;
+    width: 100%;
+  }
+  .nav-mvl .input-nav-search {
+    width: 100%;
+  }
+  .nav-mvl .input-nav-login {
+    width: 50%;
+  }
+}
+
+/** MOVIL */
+@media (max-width: 767.98px) {
+  .nav-mvl .input-nav-login {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
